@@ -1,0 +1,15 @@
+defer é um atributo boolean que indica para o browser que o scropt e pra ser executado após o documento ser parseado, ou seja, depois que as tags html forem convertidas para os elementos visuais.
+
+<main> nada mais é que do que uma div, com o sentido semantico, ou seja, somente para deixar claro que essa é a div principal do seu html
+
+atalhos para criar divs no htmls: div.nomeDaDiv+div.nomeDaDiv2, essa linha de codigo é um atalho no vscode que criara duas divs com classes nomeadas com o nome colocado após o ponto
+ai fui la no html testar mais algumas coisas, caso vc troque o ponto por #, ou seja, div#oi, vc vai criar uma div com o id oi =]
+
+no css chamar as cores pelo apelido da um leve dalay na hora de carregar, usar hexadecimals ou rgb
+
+no css ao selecionar uma classe a opção nth-child(numero do filho), permite a vc selecionar somente o filho desejado dentro de uma classe ou qualquer outro elemento
+
+Dentro da engine, variáveis que alteram elementos visuais são chamados de variáveis de views, ja as variáveis responsáveis por calculos que na grande maioria das vezes não são exibidas na tela para o jogador, são chamadas de variáveis de values
+além dos dois também existe as actions que são as variáveis que executam alguma ação, ou chamam alguma função
+
+conceito de listener: o listener é um conceito universal que existe em varias linguagems, ele basicamente é vc adicionar um ouvinte para determinada ação, ou seja, vc associa um evento a ele e ele fica ouvindo e esperando para executar alguma ação
